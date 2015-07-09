@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFEE;
+	font-size: 12px;
+	overflow: auto;
+	font-family: 'Dancing Script', cursive !important;
+}
+
+#mainDiv{
+	width: 100%;
+	height: 100%;
+}
+
+#loveHeart {
+	float: left;
+	width:670px;
+	height:625px;
+}
+
+#garden {
+	width: 100%;
+	height: 100%;
+}
+
+#elapseClock {
+	text-align: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#words {
+	font-family: "sans-serif";
+	width: 500px;
+	font-size: 24px;
+	color:#666;
+}
+
+#messages{
+	display: none;
+	font-family: 'Tangerine', cursive;
+	font-size: 45px;
+}
+
+#elapseClock .digit{
+	font-family: "digit";
+	font-size: 36px;
+}
+
+#loveu{
+	padding: 5px;
+	font-size: 42px;
+	margin-top: 30px;
+	margin-right: 120px;
+	text-align: right;
+	display: none;
+	font-family: 'Tangerine', cursive;
+}
+
+#loveu .signature{
+	margin-top: 10px;
+	font-size: 40px;
+	font-style: italic;
+}
+
+#clickSound{
+	display:none;
+}
+
+#code {
+	float: left;
+	width: 440px;
+	height: 400px;
+	color: #333;
+	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+	font-size: 12px;
+}
+
+#code .string{
+	color: #2a36ff;
+}
+
+#code .keyword{
+	color: #7f0055;
+	font-weight:bold;
+}
+
+#code .placeholder{
+	margin-left:15px;
+}
+
+#code .space{
+	margin-left:7px;
+}
+
+#code .comments{
+	color: #3f7f5f;
+}
+
+#copyright{
+	margin-top: 10px;
+	text-align: center;
+	width:100%;
+	color:#666;
+}
+
+#errorMsg{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	position: absolute;
+	top: 100px;
+	left:0px;
+}
+
+#copyright a{
+	color:#666;
+}
+
+#wish{
+	font-family: 'Tangerine', cursive;
+	font-size: 45px !important;
+	position: absolute !important;
+  top: 40px !important;
+  left: 30px !important;
+  color: rgb(81, 73, 73);
+}
+
+#marry{
+	font-family: 'Tangerine', cursive;
+	font-size: 50px !important;
+	position: absolute !important;
+  left: 30px !important;
+  bottom: 20px;
+  color: rgb(81, 73, 73);
+}
+
+#queen {
+font-family: 'Tangerine', cursive;
+	font-size: 50px !important;
+	position: absolute !important;
+  right: 30px !important;
+  bottom: 30px;
+  color: rgb(81, 73, 73);
+}
